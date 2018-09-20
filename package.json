@@ -1,0 +1,36 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "mock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "./node_modules/bin/index.js"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "lxs",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "gulp-cleancss": "^0.2.2",
+    "gulp-if": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "babel-core": "^7.0.0-beta.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-mock-server": "^1.1.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp.spritesmith": "^6.9.0"
+  }
+}
