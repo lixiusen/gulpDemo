@@ -5,6 +5,7 @@ gulp使用方法（这个例子只使用了压缩js和编译sass并压缩的功�
 安装gulp插件（现在只安装部分功能，后面根据gulpfil.js来安装，缺什么就安装什么）
 
 2、在根目录新建gulpfile.js，代码如下
+
 const gulp = require('gulp'); // 引入gulp
 const gulpUglify = require('gulp-uglify'); // 引入gulp-uglify插件
 const mockServer = require('gulp-mock-server');//引入mock数据
